@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_height = "match_parent"
+    android:layout_width="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" tools:context = ".MainActivity">
+
+    <TextView android:text = "Login"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/tlogin"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true" />
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Lyf"
+        android:id = "@+id/tlyf"
+        android:layout_below = "@+id/tlogin"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#ff7aff24"
+        android:textSize = "35dp" />
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/id"
+        android:hint = "Username"
+        android:focusable = "true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "#ffff25e6"
+        android:layout_marginTop = "46dp"
+        android:layout_below = "@+id/tlyf"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/id"
+        android:layout_below="@+id/id"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#ffff299f" />
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = " "
+        android:id = "@+id/talert"
+        android:layout_below = "@+id/pass"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#ffa500"
+        android:textSize = "25dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:id="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tlogin"
+        android:layout_toStartOf="@+id/tlogin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/signup"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tlogin"
+        android:layout_toEndOf="@+id/tlogin" />
+
+</RelativeLayout>

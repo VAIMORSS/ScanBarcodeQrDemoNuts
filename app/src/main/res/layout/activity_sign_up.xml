@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_height = "match_parent"
+    android:layout_width="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" tools:context = ".MainActivity">
+
+    <TextView
+        android:id="@+id/tSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="SignUp"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/tlyf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tSignup"
+        android:layout_centerHorizontal="true"
+        android:text="Lyf"
+        android:textColor="#ff7aff24"
+        android:textSize="35dp"
+        />
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/idForSignup"
+        android:hint = "Username"
+        android:focusable = "true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "#ffff25e6"
+        android:layout_marginTop = "46dp"
+        android:layout_below = "@+id/tlyf1"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:textSize="14dp"
+        />
+
+
+    <EditText
+        android:id="@+id/passForSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/idForSignup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/idForSignup"
+        android:layout_below="@+id/idForSignup"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="14dp"
+        android:textColorHint="#ffff299f"
+        />
+    <EditText
+        android:id="@+id/passForSignup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passForSignup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/passForSignup"
+        android:layout_below="@+id/passForSignup"
+        android:ems="10"
+        android:textSize="14dp"
+        android:hint="Confirm the password"
+        android:inputType="textPassword"
+        android:textColorHint="#ffff299f"
+        />
+
+
+    <Button
+        android:id="@+id/loginForSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tSignup"
+        android:layout_toStartOf="@+id/tSignup"
+        android:text="login"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/bCreateAccount"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/tSignup"
+        android:layout_toRightOf="@+id/tSignup"
+        android:text="Create Account"
+        android:textSize="14dp"
+        android:layout_marginBottom="10dp"
+
+        />
+</RelativeLayout>

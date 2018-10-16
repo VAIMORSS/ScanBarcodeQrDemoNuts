@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "609590453278",
+    "firebase_url": "https://scanbarcodeqrdemonuts.firebaseio.com",
+    "project_id": "scanbarcodeqrdemonuts",
+    "storage_bucket": "scanbarcodeqrdemonuts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609590453278:android:8c392cdfe3b5def9",
+        "android_client_info": {
+          "package_name": "com.exampledemo.parsaniahardik.scanbarcodeqrdemonuts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609590453278-bjpld4v4h2gn7n9brp91efh0a2bm5qeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exampledemo.parsaniahardik.scanbarcodeqrdemonuts",
+            "certificate_hash": "2d053ed38bfbba920dd83c7ff12fd24c4867863b"
+          }
+        },
+        {
+          "client_id": "609590453278-iba3qa12m758v24ue9ptgr1k0jijmi0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZn65vAvRoFPPfJzQnhUXZTVgACk8leBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609590453278-iba3qa12m758v24ue9ptgr1k0jijmi0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

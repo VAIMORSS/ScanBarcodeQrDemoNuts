@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScanBarcodeQrDemoNuts</string>
+    <string name="IdpassEmptyAlert">"Please, Enter the ID and Password"</string>
+    <string name="WrongPass">"ID and password does not match"</string>
+    <string name="userNotFound">"Entered user id does not exists, to make a new account please touch Create Account button "</string>
+    <string name="userAlreadyExists">"The Username is already taken, Can you please choose another one"</string>
+    <string name="greetingWelcome">"You have successfully created account, welcome to 'LYF' "</string>
+    <string name="samePass">"Both password should be match"</string>
+    <string name="scan">Scan</string>
+</resources>

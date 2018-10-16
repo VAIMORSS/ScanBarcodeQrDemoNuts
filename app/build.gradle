@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.exampledemo.parsaniahardik.scanbarcodeqrdemonuts"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+repositories {
+    maven {
+        url 'https://maven.google.com'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    testImplementation 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'me.dm7.barcodescanner:zbar:1.8.4'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+}
+
+apply plugin: 'com.google.gms.google-services'
