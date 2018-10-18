@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ScanBarcodeQrDemoNuts</string>
+    <string name="app_name">ShoppingCart</string>
     <string name="IdpassEmptyAlert">"Please, Enter the ID and Password"</string>
     <string name="WrongPass">"ID and password does not match"</string>
     <string name="userNotFound">"Entered user id does not exists, to make a new account please touch Create Account button "</string>

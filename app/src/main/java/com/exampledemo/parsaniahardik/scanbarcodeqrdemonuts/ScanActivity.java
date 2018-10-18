@@ -168,10 +168,22 @@ public class ScanActivity extends AppCompatActivity implements ZBarScannerView.R
 
 
 /***
- * TODO: Add fragments top maintain landscap and portrait mode When the user will change the layout the sscreeen will be
- * devided in to the two screen one part for the scrolbar and another part with scan icon and price, tax and other stuff
+ * TODO:
+ *
+ * 1A. recover data when you change the layout
+ *
+ * 1B.   Add fragments top maintain landscap and portrait mode When the user will change the layout the sscreeen will be
+ *       devided in to the two screen one part for the scrolbar and another part with scan icon and price, tax and other stuff
  *
  * 2. Online database
  *
- * 3.
+ * 3. Put a extra scanner to scan the code of the cart
+ *
+ * 4. Splash backgroud
+ *
+ * 5. send the total weight of the all products to avoid cheating
+ *
+ * 6. Preference to change font and color
+ *
+ * 7.
  */
